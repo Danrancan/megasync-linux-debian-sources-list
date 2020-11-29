@@ -7,7 +7,9 @@
 # IT IS ONLY TO HELP YOU FIND THE CORRECT URI FOR YOUR SOURCES LIST. 
 https://mega.nz/linux/MEGAsync/
 
-# Debian 10 repository for megasync
+
+# HOW TO ADD YOUR CORRESPONDING REPOSITORY TO YOUR SOURCES LIST FOR AUTO-UPDATING:
+# EX: Debian 10 repository for megasync
 https://mega.nz/linux/MEGAsync/Debian_10.0/
 
 # To install these repositories and keep the megasync app updated on debian 10, when using 
