@@ -1,22 +1,26 @@
-# megasync-linux-debian-sources-list
-This is the official source repository for the megasync app by mega.nz. 
-This is relatively undocumented so I am puting it out there for others.
+### megasync-linux-debian-sources-list
+# This is the official source repository for the megasync app by mega.nz. 
+# This is relatively undocumented so I am puting it out there for others.
 
-# This is the main website to find your distro specific version of your source repository for mega.nz and megasync. DO NOT ADD THIS TO YOUR SOURCES LIST. IT IS ONLY # TO HELP YOU FIND THE CORRECT URI FOR YOUR SOURCES LIST. 
+# This is the main website to find your distro specific version of your source repository for mega.nz and megasync. 
+# DO NOT ADD THIS TO YOUR SOURCES LIST. 
+# IT IS ONLY TO HELP YOU FIND THE CORRECT URI FOR YOUR SOURCES LIST. 
 https://mega.nz/linux/MEGAsync/
 
 # Debian 10 repository for megasync
 https://mega.nz/linux/MEGAsync/Debian_10.0/
 
-# To install these repositories and keep the megasync app updated on debian 10, when using the "sudo apt update && sudo apt upgrade" command,
-# add the corresponding repository uri to "/etc/apt/sources.list.d/megasync.list"
+# To install these repositories and keep the megasync app updated on debian 10, when using 
+# the "sudo apt update && sudo apt upgrade" command, add the corresponding 
+# repository uri to "/etc/apt/sources.list.d/megasync.list"
 sudo mkdir -p /etc/apt/sources.list.d/
 sudo nano /etc/apt/sources.list.d/megasync.list
 
-# Then copy and paste your source directory into the megasync.list file that opens up, followed by a space and a ./
+# Then copy and paste your source directory into the megasync.list file that 
+# opens up, followed by a space and a ./
 https://mega.nz/linux/MEGAsync/Yourdistroname_yourdistroversionnumber/ ./
 
-# Example (Debian 10)
+# Example (Debian 10) "/etc/apt/sources.list.d/megasync.list" file
 https://mega.nz/linux/MEGAsync/Debian_10.0/ ./
 
 # Hit "ctrl x" and save your file
