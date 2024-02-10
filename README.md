@@ -8,7 +8,7 @@ Below is the main website link to find your distro specific version of your sour
     https://mega.nz/linux/repo/
     
 ### 2. Find the repository that corresponds to your distro
-    
+
     Syntax: Go to https://mega.nz.linux/repo/YOUR_DISTRO_OF_CHOICE_HERE/
     
     Example 1: Debian 11 repository for mega apps is located at: 
