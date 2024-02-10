@@ -65,6 +65,8 @@ Below is the main website link to find your distro specific version of your sour
     
 ### FINISHED: You have now properly installed MEGA Apps on your Debian Distribution
 
+## Here is a tutorial for installing MEGA apps on the Raspberry Pi with Ubuntu or Raspberry Pi OS:
+[https://danran.rocks/2021/09/install-mega-nz-apps-from-the-command-line-with-apt-repository-on-your-raspberry-pi-running-ubuntu-or-raspberry-pi-os/](https://danran.rocks/2021/09/install-mega-nz-apps-from-the-command-line-with-apt-repository-on-your-raspberry-pi-running-ubuntu-or-raspberry-pi-os/)
 
 ## Here are a few other repository addresses:
 
