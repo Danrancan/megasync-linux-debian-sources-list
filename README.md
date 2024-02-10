@@ -2,6 +2,12 @@
 
 ## This is a tutorial on how to add the official source repository for the MEGAsync and MEGAcmd apps developed by mega.nz, to your /etc/apt/sources.list (or preferably /etc/apt/sources.list.d/mega.nz.list) for installation & auto-upgrades of the corresponding apps, using a Debian Based Distribution.
 
+## For a tutorial for installing MEGA apps on the Raspberry Pi with Ubuntu or Raspberry Pi OS visit the following link:
+[https://danran.rocks/2021/09/install-mega-nz-apps-from-the-command-line-with-apt-repository-on-your-raspberry-pi-running-ubuntu-or-raspberry-pi-os/](https://danran.rocks/2021/09/install-mega-nz-apps-from-the-command-line-with-apt-repository-on-your-raspberry-pi-running-ubuntu-or-raspberry-pi-os/)
+
+
+
+
 ### 1. Find Your Repo from mega.nz
 Below is the main website link to find your distro specific version of your source repository for mega.nz and the megasync app. It is here to help you find the correct URI that corresponsds to your working distribution. DO NOT ADD THIS TO YOUR SOURCES LIST DIRECTLY! Now, go to the link in your web browser.
 
@@ -64,9 +70,6 @@ Below is the main website link to find your distro specific version of your sour
     sudo apt install thunar-megasync
     
 ### FINISHED: You have now properly installed MEGA Apps on your Debian Distribution
-
-## Here is a tutorial for installing MEGA apps on the Raspberry Pi with Ubuntu or Raspberry Pi OS:
-[https://danran.rocks/2021/09/install-mega-nz-apps-from-the-command-line-with-apt-repository-on-your-raspberry-pi-running-ubuntu-or-raspberry-pi-os/](https://danran.rocks/2021/09/install-mega-nz-apps-from-the-command-line-with-apt-repository-on-your-raspberry-pi-running-ubuntu-or-raspberry-pi-os/)
 
 ## Here are a few other repository addresses:
 
