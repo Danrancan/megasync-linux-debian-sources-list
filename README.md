@@ -20,53 +20,53 @@ Below is the main website link to find your distro specific version of your sour
 ### 3. Download the gpg release key file from the Debian Repository and dearmor it, then put it in your /etc/apt/keyrings folder.
 
     Syntax:
-    `curl -fsSL https://mega.nz/linux/repo/YOUR_DISTRO_OF_CHOICE_HERE/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/mega.nz.gpg`
+    curl -fsSL https://mega.nz/linux/repo/YOUR_DISTRO_OF_CHOICE_HERE/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/mega.nz.gpg
 
     Example 1: Debian 11
-    `curl -fsSL https://mega.nz/linux/repo/Debian_11/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/mega.nz.gpg`
+    curl -fsSL https://mega.nz/linux/repo/Debian_11/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/mega.nz.gpg
 
     Example 2: Debian 12
-    `curl -fsSL https://mega.nz/linux/repo/Debian_12/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/mega.nz.gpg`
+    curl -fsSL https://mega.nz/linux/repo/Debian_12/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/mega.nz.gpg
 
 ### 4. To install these repositories and keep the megasync app updated on debian 11 or Debian 12, when using the `sudo apt update && sudo apt upgrade` command, add the corresponding repository uri to your `/etc/apt/sources.list.d/mega.nz.list` file.
 
     Syntax:
-    `echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/mega.nz.gpg] https://mega.nz/linux/repo/YOUR_DISTRO_OF_CHOICE_HERE/ ./" | sudo tee /etc/apt/sources.list.d/mega.nz.list > /dev/null`
+    echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/mega.nz.gpg] https://mega.nz/linux/repo/YOUR_DISTRO_OF_CHOICE_HERE/ ./" | sudo tee /etc/apt/sources.list.d/mega.nz.list > /dev/null
     
     Example 1: Debian 11
-    `echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/mega.nz.gpg] https://mega.nz/linux/repo/Debian_11/ ./" | sudo tee /etc/apt/sources.list.d/mega.nz.list > /dev/null`
+    echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/mega.nz.gpg] https://mega.nz/linux/repo/Debian_11/ ./" | sudo tee /etc/apt/sources.list.d/mega.nz.list > /dev/null
 
     Example 2: Debian 12
-    `echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/mega.nz.gpg] https://mega.nz/linux/repo/Debian_12/ ./" | sudo tee /etc/apt/sources.list.d/mega.nz.list > /dev/null`
+    echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/mega.nz.gpg] https://mega.nz/linux/repo/Debian_12/ ./" | sudo tee /etc/apt/sources.list.d/mega.nz.list > /dev/null
 
 ### 5. Update your repositories
   
-    `sudo apt update && sudo apt upgrade`
+    sudo apt update && sudo apt upgrade
 
 ### 6. Install your desired MEGA Applications
 
     Example 1: MEGAsync
-    `sudo apt install megasync`
+    sudo apt install megasync
 
     Example 2: MEGAcmd
-    `sudo apt install megacmd`
+    sudo apt install megacmd
 
     Example 3: Nautilus Support for MEGAsync
-    `sudo apt install nautilus-megasync`
+    sudo apt install nautilus-megasync
 
     Example 4: Nemo Support for MEGAsync
-    `sudo apt install nemo-megasync`
+    sudo apt install nemo-megasync
 
     Example 5: Dolphin Support for MEGAsync
-    `sudo apt install dolphin-megasync`
+    sudo apt install dolphin-megasync
 
     Example 6: Thunar Support for MEGAsync
-    `sudo apt install thunar-megasync`
+    sudo apt install thunar-megasync
     
 ### FINISHED: You have now properly installed MEGA Apps on your Debian Distribution
 
 
-# Here are a few other repository addresses:
+## Here are a few other repository addresses:
 
 #### Raspian 10 MEGA repository
 [https://mega.nz/linux/MEGAsync/Raspbian_10.0/](https://mega.nz/linux/repo/Raspbian_10.0/)
