@@ -12,10 +12,10 @@ Below is the main website link to find your distro specific version of your sour
     Syntax: Go to https://mega.nz.linux/repo/YOUR_DISTRO_OF_CHOICE_HERE/
     
     Example 1: Debian 11 repository for mega apps is located at: 
-    [https://mega.nz/linux/repo/Debian_11/](https://mega.nz/linux/repo/Debian_11/)
+    https://mega.nz/linux/repo/Debian_11/
 
     Example 2: Debian 12 repository for mega apps is located at:
-    [https://mega.nz/linux/repo/Debian_12/](https://mega.nz/linux/repo/Debian_12/)
+    https://mega.nz/linux/repo/Debian_12/
     
 ### 3. Download the gpg release key file from the Debian Repository and dearmor it, then put it in your /etc/apt/keyrings folder.
 
