@@ -5,7 +5,7 @@
 ### 1. Find Your Repo from mega.nz
 Below is the main website link to find your distro specific version of your source repository for mega.nz and the megasync app. It is here to help you find the correct URI that corresponsds to your working distribution. DO NOT ADD THIS TO YOUR SOURCES LIST DIRECTLY! Now, go to the link in your web browser.
 
-    [https://mega.nz/linux/repo/](https://mega.nz/linux/repo/)
+    https://mega.nz/linux/repo/
     
 ### 2. Find the repository that corresponds to your distro
     
